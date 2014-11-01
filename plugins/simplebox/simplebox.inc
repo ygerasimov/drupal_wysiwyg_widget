@@ -21,6 +21,7 @@ function pp_wysiwyg_widget_simplebox_plugin() {
     'css path' => $path,
     'css file' => 'simplebox.css',
     'settings' => array(
+      'module' => base_path() . $path,
       'wysiwygAddPlugin' => 'simpleboxAddPlugin'
     ),
   );

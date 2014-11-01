@@ -12,7 +12,7 @@
         editor.ui.addButton('simplebox', {
           label: 'Add simplebox',
           command: 'simplebox',
-          icon: '/pp/profiles/pp/modules/custom/pp_wysiwyg_widget/plugins/simplebox/icons/simplebox.png'
+          icon: Drupal.settings.wysiwyg.plugins.drupal.simplebox.module + '/icons/simplebox.png'
         });
         editor.widgets.add( 'simplebox', {
 
