@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Provides wysiwys's plugins.
+ */
+
+/**
+ * Implements hook_wysiwyg_include_directory().
+ */
+function pp_wysiwyg_widget_wysiwyg_include_directory($type) {
+  return 'plugins';
+}

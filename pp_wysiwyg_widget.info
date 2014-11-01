@@ -1,0 +1,6 @@
+name = PP WYSIWYG WIDGET
+description = "Provides wysiwyg widget example"
+package = PP
+core = 7.x
+
+dependencies[] = wysiwyg
